@@ -11,9 +11,7 @@ public class Main {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        InetAddress e = null;
-        String nombre = "";
-        e = obtenerHost(sc);
+        InetAddress e = obtenerHost(sc);
         System.out.println(e.getHostAddress());
     }
 
